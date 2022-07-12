@@ -15,9 +15,11 @@
 
 ## 一些指令
 
-1. git init：初始化当前目录为仓库，初始化后会将当前仓库设置为master
+1. git init：初始化当前目录为仓库，初始化后会将当前仓库设置为 master
 2. git add "文件位置或文件名"：将文件添加到缓存区
 3. git commit -m "描述信息"：提交到本地仓库
 4. git commit --amend：重写上次提交的信息
 5. git push：推送的远程仓库
 6. git fetch:拉取分支信息
+
+## idea 图形化操作
