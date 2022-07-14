@@ -1,4 +1,4 @@
-- [首页](readme)
+- [首页](README)
 - [java 基础](content/OOP.md)
   - [面向对象](content/OOP.md)
 - [工具使用](content/guide.md)
