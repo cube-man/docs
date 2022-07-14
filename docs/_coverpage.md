@@ -1,12 +1,14 @@
-![logo](_media/icon.svg)
+<style>
+.boe{
+  border-radius:50%
+}
+</style>
 
-# docsify <small>3.5</small>
+![logo](./nekoneko.jpg ':size=10% :class=boe')
 
-> 一个神奇的文档网站生成器。
+# galagala <small>0.0.1</small>
 
-
-
-[开始](guide)
+[Link Start](readme)
 
 <!-- 背景图片 -->
 

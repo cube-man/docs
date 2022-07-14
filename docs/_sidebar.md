@@ -1,5 +1,5 @@
-- [首页](zh-cn/)
-- [java基础](zh-cn/OOP.md)
-- [工具使用](zh-cn/guide.md)
-  - [git 的使用](zh-cn/git.md)
-
+- [首页](readme)
+- [java 基础](content/OOP.md)
+  - [面向对象](content/OOP.md)
+- [工具使用](content/guide.md)
+  - [git 的使用](content/git.md)
