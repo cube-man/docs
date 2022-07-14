@@ -8,7 +8,7 @@
 
 # galagala <small>0.0.1</small>
 
-[Link Start](readme)
+[Link Start](README)
 
 <!-- 背景图片 -->
 
