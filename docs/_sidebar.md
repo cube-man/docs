@@ -1,7 +1,9 @@
-- [首页](README)
-- [java 基础](content/OOP.md)
+- **首页**
+- **java 基础**
   - [面向对象](content/OOP.md)
   - [常用类](content/CommonClasses.md)
-- [工具使用](content/guide.md)
+  - [集合](content/Collection.md)
+  - [异常](content/Throwable.md)
+- **工具使用**
   - [git 的使用](content/git.md)
 - [特殊名词](content/SpecialWord.md)
