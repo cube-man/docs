@@ -49,6 +49,11 @@
    - append()：方法调用链
 4. StringBffer 类线程安全，慢
 
+### 比较器
+
+1. 实现 Comparable<T>接口,实现 compareTo(T o)方法
+2. 新建一个比较器类，继承 Comparator<T>,调用 Arrays.sort(arr,自己写的比较类)
+
 ### 其他
 
 1. equals()和 hashCode()一般一起重写，equals 可以用到 hash 比较，更加严谨，以防内存溢出（数据创建后，程序访问不到，地址丢失）

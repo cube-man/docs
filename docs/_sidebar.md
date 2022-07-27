@@ -5,6 +5,8 @@
   - [集合](content/Collection.md)
   - [异常](content/Throwable.md)
   - [异常](content/NetworkProgramme.md)
+  - [多线程](content/Thread.md)
+  - [高并发编程](content/Executive.md)
 - **工具使用**
   - [git 的使用](content/git.md)
 - [特殊名词](content/SpecialWord.md)

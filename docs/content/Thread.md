@@ -51,3 +51,8 @@
    - lock(): 加锁
    - unlock(): 释放锁
    - 不可以用 wait()暂时释放锁，释放需用 lock.newCondition()获取此对象后调用 condition 的 await()方法，通知用 signal()
+
+## 同步集合与并发集合
+
+1. ConcurrentHashMap<>():并发，线程安全的，高效
+2. Collections.synchronizedList(new ArrayList<>()): 加了同步锁，线程安全的
