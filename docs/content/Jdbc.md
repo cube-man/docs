@@ -54,3 +54,17 @@ con.close();
 - 将连接数据库的要素抽离出来，封装到工具类（DbHelper）中,并在此接口中提供 getConnection(), close() 的默认实现，避免重复获取连接与释放资源
 - 提供一个函数接口 RowMapper\<T\>, 可以继承接口后，实现 mapping 方法，完成 javabean 与表字段的映射
 - 将 dao 的几种常用功能（CRUD findById(RowMapper mapper,int id),findAll,update,save,delete）抽取出来,封装在一个 BaseDao\<T\> 提供实现,使用需返回固定类型的方法时，依靠方法传入的具体映射类，获取并返回具体类型，既保证了其在 sql 操作是的通用性，又不至于过于宽泛（Object）
+- 将 java 连接数据库的细节封装起来，用静态代码块只执行一次的特性，利用类加载器获取到唯一资源目录下的 jdbc 中的 jdbc.properties,实现自动获取连接要素，只需执行 dao 语句获取连接即可连接。
+
+## 事务
+
+1. con.setAutoCommit(false)：关闭此次连接数据库的自动提交，不然默认每句自动提交一次
+2. con.commit()：提交
+3. con.rollback()：回滚，一般放在异常处理中
+4. 回滚到固定位置，一般不用
+
+## 批处理
+
+## 索引
+
+1.

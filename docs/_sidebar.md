@@ -10,6 +10,14 @@
   - [jbdc](content/Jdbc.md)
 - **sql**
   - [mysql](sql/mysql.md)
+  - [mysql 细节](sql/mysql_detail.md)
+- **framework**
+  - [mvc](frame/mvc.md)
+  - [aop](frame/aop.md)
+- **_case_**
+  - [秒杀](case/second_kill.md)
+- **面试**
+  - [java 基础](interview/javaee.md)
 - **工具使用**
   - [git 的使用](content/git.md)
-- [特殊名词](content/SpecialWord.md)
+  - [特殊名词](content/SpecialWord.md)

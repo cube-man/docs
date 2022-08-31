@@ -26,8 +26,8 @@
 2. 随机访问速度慢，增删快
 3. 常用方法
    1. add(index,xx)
-   2. addFirst(xx)   addLast(xx)
-   3. removeFirst(xx)   removeLast(xx)
+   2. addFirst(xx) addLast(xx)
+   3. removeFirst(xx) removeLast(xx)
 
 ## Set
 
@@ -35,26 +35,31 @@
 
 ### HashSet
 
-1. 相当于hashMap的一半 HashMap(e,Object)
-2. 查询速度相当于hashMap
+1. 相当于 hashMap 的一半 HashMap(e,Object)
+2. 查询速度相当于 hashMap
 3. 插入无序
 4. 常用方法
-   1. Object[]  toArray()
+   1. Object[] toArray()
 
 ### LinkedHashSet
 
-1. hashSet子类
+1. hashSet 子类
 2. 有序
 
 ## Map
 
 ### HashMap
 
-1. key,value的结构
+1. key,value 的结构
 2. 查询速度快
-3. key不可以重复
+3. key 不可以重复
 4. 排序无法保障
 5. 一些常用方法
    1. put(k,y)
    2. get(k)
-   3. getSet()      获取全部k
+
+### Hashtable
+
+1. 线程安全的，同步的
+2. 如果不需要线程安全，建议使用 hashMap 代替
+3. 如果需要线程安全，建议使用 ConcurrentHashMap
