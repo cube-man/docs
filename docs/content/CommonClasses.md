@@ -10,7 +10,7 @@
 #### 常用方法
 
 1. getClass()：返回一个类的真实类型
-   - instanceof 判断不一定精确,子类也会返回 true
+   - instanceof 判断不一定精确,子类和实现类也会返回 true
    - 想精确可以在 if 时按特殊到普通排列
 2. hashCode():返回计算后的 hash 值（hash 算法），不同对象不同
 3. toString():返回全限定类名+@+hash 值
@@ -43,7 +43,7 @@
 
 #### 注意事项
 
-1. String str = "ss" 相当于 new String("ss"),不可修改
+1. String str = "ss" 相当于 在常量池创建一个 ss 的 string,不可修改
 2. str = "ss"+"s" 相当于 str = new String("sss")
 3. StringBuilder 类线程不安全，快
    - append()：方法调用链
